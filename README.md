@@ -477,57 +477,7 @@ Each run:
 
 ## 📸 Screenshots
 
-> *Add screenshots to the `screenshots/` folder and update these paths.*
-
-| Preview | Description |
-|---|---|
-| `screenshots/dashboard_overview.png` | Full Power BI dashboard with all 4 visuals |
-| `screenshots/sentiment_by_game.png` | Stacked bar chart — sentiment breakdown per game |
-| `screenshots/playtime_scatter.png` | Scatter plot — playtime vs sentiment correlation |
-| `screenshots/pipeline_console.png` | Terminal output from a successful pipeline run |
-| `screenshots/postgres_tables.png` | pgAdmin view of the games and reviews tables |
-
----
-
-## 🎯 Skills Demonstrated
-
-```
-Data Engineering         ████████████████████  Expert
-ETL Pipelines            ████████████████████  Expert
-REST API Integration     ████████████████████  Expert
-PostgreSQL / SQL         █████████████████░░░  Advanced
-Python                   █████████████████░░░  Advanced
-NLP / Sentiment Analysis ███████████████░░░░░  Intermediate
-Power BI / DAX           ███████████████░░░░░  Intermediate
-Data Visualization       ███████████████░░░░░  Intermediate
-Pipeline Automation      ████████████████████  Expert
-Logging & Observability  █████████████████░░░  Advanced
-```
-
-| Domain | Skills |
-|---|---|
-| **Data Engineering** | ETL design, batch processing, idempotent pipelines, incremental loads |
-| **Python Development** | Modular architecture, error handling, configuration management |
-| **Database Design** | Schema normalization, foreign keys, indexes, ON CONFLICT |
-| **API Integration** | Pagination, retries, exponential backoff, JSON parsing |
-| **NLP** | Lexicon-based sentiment analysis, compound scoring, label thresholds |
-| **Business Intelligence** | Power BI data modeling, DAX measures, dashboard design |
-| **Automation** | Task Scheduler, cron, production-grade scheduling |
-| **Software Engineering** | Separation of concerns, logging, `.env` secrets management |
-
----
-
-## 📖 Key Learnings
-
-This project demonstrates that even a **"simple" portfolio project** can exhibit the exact same architectural patterns used at companies like Netflix and Spotify — just at a smaller scale:
-
-- **Separation of concerns** makes code maintainable, testable, and easy to extend
-- **Idempotency** (`ON CONFLICT DO NOTHING`) is non-negotiable in production pipelines — failures happen, and re-runs must be safe
-- **Lexicon-based NLP** (VADER) is a practical and fast choice for short informal text when latency and cost matter — not everything needs a transformer model
-- **Batch > Streaming** for most analytics use cases — real-time adds enormous complexity for marginal business benefit when daily freshness is acceptable
-- **Structured logging** is the difference between a script and a system — logs tell you what happened, when, and why without needing to re-run
-- **Environment variables** (`python-dotenv`) separate secrets from code — a basic but critical security practice
-- A **genre-diverse game selection** makes cross-segment comparisons meaningful — Stardew Valley vs CS2 tells a far richer story than 6 shooters
+<img width="1145" height="682" alt="Screenshot 2026-07-05 124225" src="https://github.com/user-attachments/assets/1cf7d691-4868-4b1f-9687-6b3c2bc3af74" />
 
 ---
 
