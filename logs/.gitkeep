@@ -1,0 +1,11 @@
+# This file keeps the logs/ directory tracked by Git.
+# 
+# WHY?
+#   Git doesn't track empty directories. Our pipeline writes log files here,
+#   but the directory itself needs to exist. Without this file, a fresh Git
+#   clone would be missing the logs/ directory and the pipeline would error
+#   when trying to write logs/pipeline.log.
+#
+# The .gitignore file is configured to track this file but ignore *.log files
+# inside the directory — so the directory structure is preserved without
+# committing actual log content to the repo.

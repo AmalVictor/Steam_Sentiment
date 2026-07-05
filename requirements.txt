@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# requirements.txt — Python package dependencies
+#
+# HOW TO INSTALL:
+#   pip install -r requirements.txt
+#
+# WHAT EACH PACKAGE DOES:
+# ─────────────────────────────────────────────────────────────────────────────
+
+# requests: Makes HTTP calls to the Steam API (like a web browser in Python)
+requests==2.31.0
+
+# psycopg2-binary: Connects Python to PostgreSQL databases
+# "binary" means it's pre-compiled — no C compiler needed on your machine
+psycopg2-binary==2.9.9
+
+# vaderSentiment: Lexicon-based sentiment analysis library
+# Scores text from -1.0 (very negative) to +1.0 (very positive)
+vaderSentiment==3.3.2
+
+# python-dotenv: Reads .env files and loads values into os.environ
+# Keeps secrets out of source code
+python-dotenv==1.0.0
+
+# pandas: Powerful data manipulation library (like Excel but in Python)
+# Used here for optional data inspection and future analysis
+pandas==2.1.4
