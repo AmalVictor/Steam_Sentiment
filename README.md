@@ -477,7 +477,8 @@ Each run:
 
 ## 📸 Screenshots
 
-<img width="1145" height="682" alt="Screenshot 2026-07-05 124225" src="https://github.com/user-attachments/assets/1cf7d691-4868-4b1f-9687-6b3c2bc3af74" />
+<img width="1120" height="625" alt="image" src="https://github.com/user-attachments/assets/55060277-5294-4653-bbc8-25eedd3e1e71" />
+
 
 ---
 
